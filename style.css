@@ -810,20 +810,68 @@ p {
 -------------------------- */
 
 .cool_facts_area {
-    position: relative;
-    z-index: auto;
-    /*
-    background: #ff1100;
-    background: -webkit-linear-gradient(to left, #7873ed, #a865e1);
-    background: -webkit-linear-gradient(right, #7873ed, #a865e1);
-    background: -webkit-gradient(linear, right top, left top, from(#111111), to(#999999));
-    background: -o-linear-gradient(right, #7873ed, #a865e1);
-    background: linear-gradient(to left, #7873ed, #a865e1);
-    */
-    background-color: red;
-    padding: 180px 0 80px 0;
-    top: -100px;
+  position: relative;
+  z-index: auto;
+  padding: 180px 0 80px 0;
+  top: -100px;
+  	color: #fff;
+  	background: linear-gradient(-45deg, #ff1100, #E73C7E, #23A6D5, #23D5AB);
+  	background-size: 400% 400%;
+  	-webkit-animation: Gradient 9s ease infinite;
+  	-moz-animation: Gradient 9s ease infinite;
+  	animation: Gradient 9s ease infinite;
 }
+
+  @-webkit-keyframes Gradient {
+  	0% {
+  		background-position: 0% 50%
+  	}
+  	50% {
+  		background-position: 100% 50%
+  	}
+  	100% {
+  		background-position: 0% 50%
+  	}
+  }
+
+  @-moz-keyframes Gradient {
+  	0% {
+  		background-position: 0% 50%
+  	}
+  	50% {
+  		background-position: 100% 50%
+  	}
+  	100% {
+  		background-position: 0% 50%
+  	}
+  }
+
+  @keyframes Gradient {
+  	0% {
+  		background-position: 0% 50%
+  	}
+  	50% {
+  		background-position: 100% 50%
+  	}
+  	100% {
+  		background-position: 0% 50%
+  	}
+  }
+
+
+  @keyframes Gradient {
+  	0% {
+  		background-position: 0% 50%
+  	}
+  	50% {
+  		background-position: 100% 50%
+  	}
+  	100% {
+  		background-position: 0% 50%
+  	}
+  }
+
+
 
 
 .cool_facts_area:after {
@@ -1015,6 +1063,8 @@ p {
     color: rgba(0, 0, 0, 0.75);
     font-size: 22px;
     margin-top: 5px;
+    font-family: "Comfortaa", cursive;
+    font-weight: 700;
 }
 
 .clients-feedback-area .star-icon > i {
@@ -1027,6 +1077,8 @@ p {
     margin: auto;
     margin-bottom: 15px;
     font-size: 22px;
+    font-family: "Comfortaa", cursive;
+    font-weight: 400;
 }
 
 .clients-feedback-area .client > i {
@@ -1037,6 +1089,8 @@ p {
 
 .clients-feedback-area .client-name > p {
     color: #b5aec4;
+    font-family: "Comfortaa", cursive;
+    font-weight: 400;
 }
 
 .clients-feedback-area .slick-dots {
@@ -1132,13 +1186,68 @@ p {
 -------------------------- */
 
 .our-monthly-membership {
-    background: #a865e1;
-    background: -webkit-linear-gradient(to left, #7873ed, #a865e1);
-    background: -webkit-linear-gradient(right, #7873ed, #a865e1);
-    background: -webkit-gradient(linear, right top, left top, from(#7873ed), to(#a865e1));
-    background: -o-linear-gradient(right, #7873ed, #a865e1);
-    background: linear-gradient(to left, #7873ed, #a865e1);
+
+  	color: #fff;
+  	background: linear-gradient(-45deg, #fff, #ff1100);
+  	background-size: 400% 400%;
+  	-webkit-animation: Gradient 3s ease infinite;
+  	-moz-animation: Gradient 3s ease infinite;
+  	animation: Gradient 3s ease infinite;
+    position: relative;
+    z-index: 2;
+    background-position: bottom center;
+    background-size: cover;
 }
+
+  @-webkit-keyframes Gradient {
+  	0% {
+  		background-position: 0% 50%
+  	}
+  	50% {
+  		background-position: 100% 50%
+  	}
+  	100% {
+  		background-position: 0% 50%
+  	}
+  }
+
+  @-moz-keyframes Gradient {
+  	0% {
+  		background-position: 0% 50%
+  	}
+  	50% {
+  		background-position: 100% 50%
+  	}
+  	100% {
+  		background-position: 0% 50%
+  	}
+  }
+
+  @keyframes Gradient {
+  	0% {
+  		background-position: 0% 50%
+  	}
+  	50% {
+  		background-position: 100% 50%
+  	}
+  	100% {
+  		background-position: 0% 50%
+  	}
+  }
+
+
+  @keyframes Gradient {
+  	0% {
+  		background-position: 0% 50%
+  	}
+  	50% {
+  		background-position: 100% 50%
+  	}
+  	100% {
+  		background-position: 0% 50%
+  	}
+  }
+
 
 .membership-description > h2 {
     color: #ffffff;
