@@ -470,14 +470,14 @@ p {
 .welcome-thumb {
     width: 33%;
     position: absolute;
-    bottom: 160px;
+    bottom: 120px;
     right: 00px;
     z-index: 9;
 }
 
 .welcome-thumb img {
     height: auto;
-    width: 70%;
+    width: 80%;
 }
 
 .wellcome-heading > h2 {
@@ -847,6 +847,12 @@ p {
 .counter-area.three-digit {
 
       min-width: 150px;
+      -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+.counter-area.k-digit {
+
+      min-width: 120px;
       -ms-flex-item-align: end;
       align-self: flex-end;
 }
@@ -1242,6 +1248,7 @@ p {
 .email-text > p {
     font-size: 18px;
     margin-bottom: 10px;
+    font-family: "Comfortaa", cursive;
 }
 
 .address-text > p > span,
@@ -1301,7 +1308,8 @@ p {
 }
 
 .footer-text > p {
-    margin-bottom: 50px;
+    margin-top: -50px;
+    margin-bottom: 30px;
 }
 
 /* --------------------------
