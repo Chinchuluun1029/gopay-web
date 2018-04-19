@@ -665,7 +665,6 @@ p {
 .app-download-btn a:hover {
     border-color: transparent;
     background-color: white;
-
 }
 
 .app-download-btn a i {
@@ -676,6 +675,7 @@ p {
     -o-transition-duration: 500ms;
     transition-duration: 500ms;
 }
+
 
 .app-download-btn a p {
     color: white;
@@ -701,6 +701,13 @@ p {
 .app-download-btn.active a p,
 .app-download-btn a:hover p span {
     color: gray;
+}
+
+.app-download-btn.android-btn a:hover i,
+.app-download-btn.active.android-btn a i,
+.app-download-btn.active.android-btn a p,
+.app-download-btn.android-btn a:hover p span#google-store {
+    color: #a4c639;
 }
 
 
