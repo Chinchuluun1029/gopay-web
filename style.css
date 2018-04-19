@@ -760,8 +760,10 @@ p {
     border: 20px solid #fff;
     border-radius: 20px;
     height: 650px;
-    -webkit-box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
-    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
+/*    -webkit-box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08); */
+    -webkit-box-shadow: 0px 0px 30px 4px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 30px 4px rgba(0,0,0,0.5);
 }
 
 .video-area:after {
