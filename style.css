@@ -865,6 +865,12 @@ p {
       -ms-flex-item-align: end;
       align-self: flex-end;
 }
+.counter-area.four-digit {
+
+      min-width: 170px;
+      -ms-flex-item-align: end;
+      align-self: flex-end;
+}
 
 .counter-area > h3 {
     color: #ffffff;
