@@ -581,19 +581,16 @@ p {
     color: #f44542;
 }
 
-.single-special > h4 {
-    font-size: 22px;
-    color: #5b32b4;
-}
-
 .single-icon {
     margin-bottom: 25px;
 }
 
 .single-special > h4 {
     font-size: 22px;
-    color: #5b32b4;
+    color: rgba(0, 0, 0, 0.65);
     margin-bottom: 15px;
+    font-family: "Comfortaa", cursive;
+    font-weight: 700;
 }
 
 .single-special {
@@ -624,12 +621,14 @@ p {
 }
 
 .single-special:hover {
-    -webkit-box-shadow: 0 10px 90px rgba(0, 0, 0, 0.08);
-            box-shadow: 0 10px 90px rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 0 10px 90px rgba(0, 0, 0, 0.28);
+            box-shadow: 0 10px 90px rgba(0, 0, 0, 0.28);
 }
 
 .single-special p {
     margin-bottom: 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
 }
 
 .app-download-area {
@@ -1186,17 +1185,16 @@ p {
 -------------------------- */
 
 .our-monthly-membership {
-
-  	color: #fff;
-  	background: linear-gradient(-45deg, #fff, #ff1100);
-  	background-size: 400% 400%;
-  	-webkit-animation: Gradient 3s ease infinite;
-  	-moz-animation: Gradient 3s ease infinite;
-  	animation: Gradient 3s ease infinite;
     position: relative;
-    z-index: 2;
-    background-position: bottom center;
-    background-size: cover;
+    z-index: auto;
+    padding: 180px 0 80px 0;
+      color: #fff;
+      background: linear-gradient(-45deg, #ff1100, #E73C7E, #23A6D5, #23D5AB);
+      background-size: 400% 400%;
+      -webkit-animation: Gradient 9s ease infinite;
+      -moz-animation: Gradient 9s ease infinite;
+      animation: Gradient 9s ease infinite;
+
 }
 
   @-webkit-keyframes Gradient {
