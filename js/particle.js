@@ -20,7 +20,7 @@ function particalBGone () {
     particlesJS("particles-js", {
       "particles": {
         "number": {
-          "value": 75,
+          "value": 50,
           "density": {
             "enable": true,
             "value_area": 473.51100518494565

@@ -477,7 +477,7 @@ p {
 
 .welcome-thumb img {
     height: auto;
-    width: 80%;
+    width: 65%;
 }
 
 .wellcome-heading > h2 {
@@ -587,7 +587,7 @@ p {
 
 .single-special > h4 {
     font-size: 22px;
-    color: rgba(0, 0, 0, 0.65);
+    color: rgba(0, 0, 0, 0.55);
     margin-bottom: 15px;
     font-family: "Comfortaa", cursive;
     font-weight: 700;
