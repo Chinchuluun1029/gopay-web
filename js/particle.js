@@ -129,7 +129,7 @@ function particalBGone () {
     });
 
 
-      /* ---- stats.js config ---- */
+      /* ---- stats.js config ---- 
 
       var count_particles, stats, update;
       stats = new Stats;
@@ -147,7 +147,7 @@ function particalBGone () {
         }
         requestAnimationFrame(update);
       };
-      requestAnimationFrame(update);
+      requestAnimationFrame(update); */
   };
 }
 
@@ -266,7 +266,7 @@ function particalBGtwo () {
       });
 
 
-      /* ---- stats.js config ---- */
+      /* ---- stats.js config ---- 
 
       var count_particles, stats, update;
       stats = new Stats;
@@ -284,7 +284,7 @@ function particalBGtwo () {
         }
         requestAnimationFrame(update);
       };
-      requestAnimationFrame(update);
+      requestAnimationFrame(update); */
   };
 }
 
@@ -295,6 +295,6 @@ jQuery(window).on('load', function () {
       prealoader ();
       particalBGone ();
       particalBGtwo ();
-      particalBGthree ()
+      // particalBGthree ()
   })(jQuery);
  });
