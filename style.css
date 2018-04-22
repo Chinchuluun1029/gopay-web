@@ -51,11 +51,11 @@
 body {
     font-family: 'Cabin', sans-serif;
     background-color: #fff;
-    height: 100%;         /* added this */
+    /* height: 100%;   added this */
 }
 
 
-/* added this also */
+/* 
 section {
     display: block;
     background: #ffffff;
@@ -63,6 +63,7 @@ section {
     padding: 60px;
     padding-left: 120px;
 }
+*/
 
 
 h1,
