@@ -639,6 +639,7 @@ p {
     margin-bottom: 0;
     font-family: "Open Sans", sans-serif;
     font-weight: 500;
+    color: #58595b;
 }
 
 .app-download-area {
@@ -791,7 +792,7 @@ p {
 .video-area .video-play-btn a {
     width: 80px;
     height: 80px;
-    background-color: #ff1100;
+    background-color: #ed1c24;
     color: #fff;
     text-align: center;
     display: block;
@@ -824,7 +825,7 @@ p {
   padding: 180px 0 80px 0;
   top: -100px;
   	color: #fff;
-  	background: linear-gradient(-45deg, #ff1100, #E73C7E, #23A6D5, #23D5AB);
+    background: linear-gradient(-45deg, #ed1c24, #E73C7E, #23A6D5, #23D5AB);
   	background-size: 400% 400%;
   	-webkit-animation: Gradient 9s ease infinite;
   	-moz-animation: Gradient 9s ease infinite;
@@ -985,6 +986,7 @@ p {
     height: 100%;
     width: 100%;
     text-align: center;
+    color: blue;
 }
 
 /* --------------------------
@@ -1126,8 +1128,8 @@ p {
 }
 
 .clients-feedback-area .slick-dots li.slick-active button {
-    background-color: #ff1100;
-    border-color: #ff1100;
+    background-color: #ed1c24;
+    border-color: #ed1c24;
 }
 
 .clients-feedback-area .slick-slide.client-thumbnail {
@@ -1199,7 +1201,7 @@ p {
     z-index: auto;
     padding: 180px 0 80px 0;
       color: #fff;
-      background: linear-gradient(-45deg, #ff1100, #E73C7E, #23A6D5, #23D5AB);
+      background: linear-gradient(-45deg, #ed1c24, #E73C7E, #23A6D5, #23D5AB);
       background-size: 400% 400%;
       -webkit-animation: Gradient 9s ease infinite;
       -moz-animation: Gradient 9s ease infinite;
@@ -1357,7 +1359,7 @@ p {
 .team-social-icon > a {
     font-size: 14px;
     color: #fff;
-    background: #ff1100;
+    background: #ed1c24;
     height: 40px;
     width: 40px;
     line-height: 40px;
@@ -1418,7 +1420,7 @@ p {
 }
 
 .btn.submit-btn {
-    background: #ff1100;
+    background: #ed1c24;
     height: 48px;
     min-width: 185px;
     color: #ffffff;
