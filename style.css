@@ -446,7 +446,7 @@ p {
 
 .wellcome_area {
     background-image: url(img/bg-img/test4.png);
-    height: 800px;
+    height: 900px;
     position: relative;
     z-index: 2;
     background-position: bottom center;
