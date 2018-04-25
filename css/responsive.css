@@ -90,12 +90,27 @@
     .sing-up-button > a {
         margin-top: 4px;
         display: inline-block;
-        border: 2px solid #a883e9;
+        border: 2px solid #fff;
         height: 40px;
         min-width: 160px;
         line-height: 36px;
         font-size: 14px;
+        text-align: center;
     }
+
+    
+    #ca-navbar {
+        padding: 0px;
+        margin-top: 10px;
+        border-radius: 20px;
+        background: linear-gradient(red, rgb(244, 66, 66));
+        text-align: center;
+    }
+
+    .sing-up-button {
+        text-align: center;
+    }
+
     .counter-area {
         min-width: 50px;
     }
@@ -167,8 +182,7 @@
         padding: 0px;
         margin-top: 10px;
         border-radius: 20px;
-        /* background: linear-gradient(to right, rgba(255,0,0, 0.6), rgba(255,0,0, 1)); */
-        background: linear-gradient(red, rgb(244, 66, 66));
+        background: #ed1c24;
         text-align: center;
     }
     .sing-up-button {
