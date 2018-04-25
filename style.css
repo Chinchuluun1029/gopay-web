@@ -452,8 +452,8 @@ p {
 -------------------------- */
 
 .wellcome_area {  
-  	color: #fff;
-      background: linear-gradient(-45deg, #ed1c24, #E73C7E, #23A6D5, #23D5AB);
+  	color: #ed1c24;
+      background: linear-gradient(-45deg, #ed1c24, #ff3b3f, #ed1c24 ,#ff3b3f, #ed1c24);
         background-size: 400% 400%;
         -webkit-animation: Gradient 9s ease infinite;
         -moz-animation: Gradient 9s ease infinite;
@@ -822,8 +822,8 @@ p {
 
 .video-area .video-play-btn a:hover {
     background-color: rgba(255, 0 , 0, 0);
-    color: #fff;
-    font-size: 48px;
+    color: #ed1c24;
+    font-size: 80px;
 }
 
 /* --------------------------
