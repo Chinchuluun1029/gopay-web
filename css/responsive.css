@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 @media (min-width: 992px) and (max-width: 1199px) {
+    
     .menu_area .navbar-brand {
         font-size: 42px;
     }
@@ -25,7 +26,7 @@
         padding: 0 4%;
     }
     .header_area.sticky .menu_area #nav .nav-link {
-        padding: 23px 7.5px;
+        padding: 35px 7.5px;
     }
 }
 

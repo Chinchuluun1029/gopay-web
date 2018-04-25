@@ -354,10 +354,10 @@ p {
 }
 
 .menu_area .navbar-brand {
-    font-size: 62px;
+    font-size: 42px;
     font-weight: 700;
     color: #fff;
-    margin-left: 0px;
+    margin-left: -20px;
     line-height: 1;
     padding: -10px;
     font-family: "Cabin", serif;
@@ -437,9 +437,10 @@ p {
 }
 
 .header_area.sticky .menu_area #nav .nav-link {
-    padding: 23px 15px;
+    padding: 23px 10px;
     font-family: 'Comfortaa', cursive;
     font-weight: 700;
+    text-align: center;
 }
 .header_area.sticky .navbar {
     padding: 0px;
@@ -450,8 +451,13 @@ p {
 :: 3.0 Wellcome Area CSS
 -------------------------- */
 
-.wellcome_area {
-    background-image: url(img/bg-img/test4.png);
+.wellcome_area {  
+  	color: #fff;
+      background: linear-gradient(-45deg, #ed1c24, #E73C7E, #23A6D5, #23D5AB);
+        background-size: 400% 400%;
+        -webkit-animation: Gradient 9s ease infinite;
+        -moz-animation: Gradient 9s ease infinite;
+        animation: Gradient 9s ease infinite;
     height: 900px;
     position: relative;
     z-index: 2;
