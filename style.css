@@ -452,12 +452,12 @@ p {
 -------------------------- */
 
 .wellcome_area {  
-  	color: #ed1c24;
-      background: linear-gradient(-45deg, #ed1c24, #ff3b3f, #ed1c24 ,#ff3b3f, #ed1c24);
-        background-size: 400% 400%;
-        -webkit-animation: Gradient 9s ease infinite;
-        -moz-animation: Gradient 9s ease infinite;
-        animation: Gradient 9s ease infinite;
+  	background-color: #ed1c24;
+      /* background: linear-gradient(-45deg, #ed1c24, #ff0040,  #ed1c24, #ed1c24, #ed1c24);
+        background-size: 4000% 4000%;
+        -webkit-animation: Gradient 3s ease infinite;
+        -moz-animation: Gradient 3s ease infinite;
+        animation: Gradient 3s ease infinite; */
     height: 900px;
     position: relative;
     z-index: 2;

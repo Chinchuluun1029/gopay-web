@@ -98,32 +98,11 @@
         font-size: 14px;
         text-align: center;
     }
-
-    
-    #ca-navbar {
-        padding: 0px;
-        margin-top: 10px;
-        border-radius: 20px;
-        background: linear-gradient(red, rgb(244, 66, 66));
-        text-align: center;
+    .counter-area.four-digit > h3 > span {
+        padding-left: 35px;
     }
-
-    .sing-up-button {
-        text-align: center;
-    }
-
-    .counter-area {
-        min-width: 50px;
-    }
-    .counter-area > h3 {
-        font-size: 30px;
-    }
-    .app_screenshots_slides {
-        padding: 0;
-    }
-    .clients-feedback-area .slick-slide.slick-current img {
-        width: 90px !important;
-        height: 90px !important;
+    .counter-area.three-digit > h3 > span {
+        padding-left: 25px;
     }
 }
 
@@ -134,6 +113,22 @@
     }
     .get-start-area .email {
         margin-bottom: 0;
+    }
+    .single-cool-fact {
+        margin: 20px;
+    }
+    
+    #ca-navbar {
+        padding: 0px;
+        margin-top: 10px;
+        border-radius: 20px;
+        background: #ed1c24;
+        text-align: center;
+    }
+    .sing-up-button {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        text-align: center;
     }
 }
 
@@ -146,8 +141,8 @@
         font-size: 70px;
     }
     .welcome-thumb {
-        bottom: -109px;
-        width: 75%;
+        bottom: 10px;
+        width: 45%;
     }
     .wellcome-heading {
         margin-bottom: 50px;
@@ -158,6 +153,7 @@
     .get-start-area .email {
         max-width: 370px;
     }
+    
 }
 
 @media (min-width: 320px) and (max-width: 479px) {
@@ -205,9 +201,10 @@
         max-width: 100%;
     }
     .welcome-thumb {
-        width: 80%;
-        bottom: -174px;
+        width: 70%;
+        bottom: -100px;
         right: 0;
+        visibility: hidden;
     }
     .logo_area > a > h2 {
         font-size: 40px;
