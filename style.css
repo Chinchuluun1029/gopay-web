@@ -52,7 +52,7 @@
 body {
     font-family: 'Cabin', sans-serif;
     background-color: #fff;
-    height: 115%;  
+    height: 115%;
 }
 
 section {
@@ -61,6 +61,7 @@ section {
     height: 115%;
 }
 */
+
 
 h1,
 h2,
@@ -204,7 +205,7 @@ img {
 ul,
 ol {
     margin: 0;
-    padding: 0px;
+    padding: 0;
 }
 
 #scrollUp {
@@ -355,6 +356,7 @@ p {
     margin-left: 0px;
     line-height: 1;
     padding: -10px;
+    font-family: "Cabin", serif;
 }
 
 
@@ -501,6 +503,7 @@ p {
     font-weight: 400;
     position: relative;
     z-index: 3;
+    font-family: "Comfortaa", sans-serif;
 }
 
 .get-start-area .email {
@@ -976,7 +979,7 @@ p {
 }
 
 .app-screenshots-area .owl-dot.active {
-    background-color: #ed1c24;
+    background-color: #fb397d;
     border: transparent;
 }
 
