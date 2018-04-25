@@ -31,7 +31,7 @@
     }
 }
 
-@media (min-width: 767px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
     
     .header_area {
         padding: 0;
@@ -111,7 +111,7 @@
 }
 
 
-@media (min-width: 576px) and (max-width: 767px) {
+@media (min-width: 576px) and (max-width: 768px) {
     .wellcome-heading > h3 {
         font-size: 286px;
     }
@@ -140,7 +140,7 @@
 }
 
 
-@media (min-width: 480px) and (max-width: 575px) {
+@media (min-width: 480px) and (max-width: 576px) {
     .wellcome-heading > h3 {
         font-size: 284px;
     }
@@ -163,7 +163,7 @@
     
 }
 
-@media (min-width: 320px) and (max-width: 479px) {
+@media (min-width: 320px) and (max-width: 480px) {
     .header_area {
         padding: 0px;
     }
@@ -214,7 +214,6 @@
         width: 70%;
         bottom: -100px;
         right: 0;
-        visibility: hidden;
     }
     .logo_area > a > h2 {
         font-size: 40px;
