@@ -1,5 +1,3 @@
-
-
 /* --- [Master Stylesheet] ----
 :: 1.0 Base CSS Start
 :: 2.0 Header Area CSS
@@ -38,20 +36,6 @@
     margin: 0;
     padding: 0;
 }
-
-/*
-body {
-    font-family: 'Cabin', sans-serif;
-    background-color: #fff;
-    height: 115%;
-}
-
-section {
-    display: block;
-    background: #ffffff;
-    height: 115%;
-}
-*/
 
 
 h1,
@@ -444,11 +428,6 @@ p {
 
 .wellcome_area {  
   	background-color: #ed1c24;
-      /* background: linear-gradient(-45deg, #ed1c24, #ff0040,  #ed1c24, #ed1c24, #ed1c24);
-        background-size: 4000% 4000%;
-        -webkit-animation: Gradient 3s ease infinite;
-        -moz-animation: Gradient 3s ease infinite;
-        animation: Gradient 3s ease infinite; */
     height: 900px;
     position: relative;
     z-index: 2;
@@ -1517,15 +1496,4 @@ p {
 
 .copyright-text > p {
     margin-bottom: 0;
-}
-
-
-
-
-<!-- New Edits-->
-
-
-p .subtitle {
-  font-size: 40px;
-  font-style: italic;
 }
