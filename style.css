@@ -593,8 +593,6 @@ p {
     transition-duration: 800ms;
     margin-bottom: 30px;
 }
-.special_description_area {
-}
 .special_description_content > h2 {
     color: #f44542;
     font-size: 40px;
