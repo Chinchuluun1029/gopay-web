@@ -130,6 +130,7 @@
         text-align: center;
     }
     .sing-up-button {
+        visibility: hidden;
         margin-top: 10px;
         margin-bottom: 20px;
         text-align: center;
@@ -159,6 +160,9 @@
     }
     .get-start-area .email {
         max-width: 370px;
+    }
+    .sing-up-button {
+        visibility: hidden;
     }
     
 }
@@ -193,6 +197,7 @@
         text-align: center;
     }
     .sing-up-button {
+        visibility: hidden;
         margin-top: 10px;
         margin-bottom: 20px;
         text-align: center;
